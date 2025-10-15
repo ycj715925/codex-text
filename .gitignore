@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter / analysis
+.ipynb_checkpoints/
+
+# Cache & tooling
+.pytest_cache/
+.mypy_cache/
+
+# Node (if any tooling)
+node_modules/
+
+# Sensitive site cookies
+*cookies.txt
+

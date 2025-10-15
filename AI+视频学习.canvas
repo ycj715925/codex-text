@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"d1a6e9f2c3b8a1e3","type":"text","text":"## 第二步：内容处理与增强\n","x":0,"y":-250,"width":800,"height":1130,"color":"4"},
+		{"id":"i1a6e9f2c3b8a1e8","type":"text","text":"### 🎯 **目标**\n将原始字幕转化为干净、易读、高质量的双语知识文档。","x":50,"y":-150,"width":700,"height":100,"color":"6"},
+		{"id":"j1a6e9f2c3b8a1e9","type":"text","text":"### 🛠️ **核心工具 (三选一)**","x":50,"y":-25,"width":700,"height":750,"color":"6"},
+		{"id":"k1a6e9f2c3b8a1f0","type":"text","text":"**方案A (低代码/无代码 - Notion生态)**\n- **工具:** Notion + Notion-MCP + Notion AI\n- **流程:** 批量导入 -> 数据库模板清洗 -> AI字段翻译润色。\n- **优势:** 操作直观，生态闭环。","x":100,"y":50,"width":600,"height":200},
+		{"id":"l1a6e9f2c3b8a1f1","type":"text","text":"**方案B (可视化自动化 - 工作流引擎)**\n- **工具:** n8n / Make 等\n- **流程:** 监听文件夹 -> 文本处理 -> 调用LLM API -> 保存文件。\n- **优势:** 高度灵活，一次搭建，永久自动化。","x":100,"y":275,"width":600,"height":200},
+		{"id":"m1a6e9f2c3b8a1f2","type":"text","text":"**方案C (本地化与定制化 - 本地大模型)**\n- **工具:** LM Studio / Ollama + Python脚本\n- **流程:** 脚本读取文件 -> 调用本地LLM API -> 保存结果。\n- **优势:** 数据完全私有，无API费用，深度定制。","x":100,"y":500,"width":600,"height":200},
+		{"id":"n1a6e9f2c3b8a1f3","type":"text","text":"### 📄 **产出物**\n- **标准化的知识文档 (.md)**","x":50,"y":750,"width":700,"height":90,"color":"6"},
+		{"id":"b1a6e9f2c3b8a1e2","type":"text","text":"## 第一步：规模化数据采集\n","x":-840,"y":-50,"width":600,"height":550,"color":"1"},
+		{"id":"f1a6e9f2c3b8a1e5","type":"text","text":"### 🎯 **目标**\n批量获取作为“原材料”的视频字幕文件。","x":-790,"y":50,"width":500,"height":100,"color":"6"},
+		{"id":"g1a6e9f2c3b8a1e6","type":"text","text":"### 🛠️ **核心工具**\n- **TarTube:** 跨平台字幕下载工具 (YouTube, Bilibili...)\n- **yt-dlp**: 命令行模式字幕下载工具(YouTube, Bilibili...)","x":-790,"y":175,"width":500,"height":125,"color":"6"},
+		{"id":"e1a6e9f2c3b8a1e4","type":"text","text":"## 第三步：知识内化与价值创造\n","x":1040,"y":-125,"width":600,"height":1130,"color":"2"},
+		{"id":"o1a6e9f2c3b8a1f4","type":"text","text":"### 🎯 **目标**\n将标准化的知识文档，转化为可交互的AI和可创造价值的资产。","x":1090,"y":-25,"width":500,"height":100,"color":"6"},
+		{"id":"p1a6e9f2c3b8a1f5","type":"text","text":"### 🛠️ **核心工具 (双工具策略)**\n\n**1. 知识沉淀与连接 (Storage & Connection)**\n- **工具:** **Obsidian**\n- **用途:** 作为“第二大脑”，通过双向链接建立知识网络，撰写个人思考。\n\n**2. AI交互与探索 (Interaction & Exploration)**\n- **工具:** **Google NotebookLM**\n- **用途:** 作为“博主AI分身”，上传文档进行精准的问答、总结和探索。","x":1090,"y":100,"width":500,"height":375,"color":"6"},
+		{"id":"q1a6e9f2c3b8a1f6","type":"text","text":"### 🏆 **最终产出 & 价值实现**\n\n**1. 顶尖知识博主的【AI分身】**\n- **用途:** 在NotebookLM中，你将得到一个可以24小时对话的AI导师，实现真正的 **深度交互式学习**。\n\n**2. 克隆了思想的【个人知识库】**\n- **用途:** 在Obsidian中，你拥有了博主完整的思想体系，这是你未来价值创造的无限金矿。\n- **价值延伸:**\n    - **🚀 二次创作:** 为你的自媒体提供源源不断的深度选题和素材。\n    - **💰 价值变现:** 深度加工成精读笔记、思维导图等，作为虚拟资料进行售卖。","x":1090,"y":500,"width":500,"height":450,"color":"5"},
+		{"id":"c1a6e9f2c3b8a1e1","type":"text","text":"# 终极AI工作流：克隆顶级知识博主的大脑","x":100,"y":-460,"width":560,"height":60},
+		{"id":"h1a6e9f2c3b8a1e7","type":"text","text":"### 📄 **产出物**\n- **原始字幕文件集 (.srt, .vtt)**\n- 状态：包含时间戳和元数据，需要清洗。","x":-790,"y":315,"width":500,"height":120,"color":"6"}
+	],
+	"edges":[
+		{"id":"r1a6e9f2c3b8a1f7","fromNode":"b1a6e9f2c3b8a1e2","fromSide":"right","toNode":"d1a6e9f2c3b8a1e3","toSide":"left","color":"5","label":"原始字幕文件"},
+		{"id":"s1a6e9f2c3b8a1f8","fromNode":"d1a6e9f2c3b8a1e3","fromSide":"right","toNode":"e1a6e9f2c3b8a1e4","toSide":"left","color":"5","label":"标准化的知识文档"}
+	]
+}

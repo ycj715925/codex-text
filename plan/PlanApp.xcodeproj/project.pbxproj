@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000101 /* PlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000201 /* PlanApp.swift */; };
+		A00000000000000000000102 /* PlanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000202 /* PlanStore.swift */; };
+		A00000000000000000000103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000203 /* ContentView.swift */; };
+		A00000000000000000000104 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000204 /* TodayView.swift */; };
+		A00000000000000000000105 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000205 /* TaskRow.swift */; };
+		A00000000000000000000106 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000206 /* PlanView.swift */; };
+		A00000000000000000000107 /* TaskEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000207 /* TaskEditorView.swift */; };
+		A00000000000000000000108 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000208 /* Models.swift */; };
+		A00000000000000000000109 /* DateRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000209 /* DateRules.swift */; };
+		A0000000000000000000010A /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020A /* NotificationScheduler.swift */; };
+		A0000000000000000000010B /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020B /* PlanRepository.swift */; };
+		A0000000000000000000010C /* WidgetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020C /* WidgetIntents.swift */; };
+		A0000000000000000000011B /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000219 /* WidgetSnapshot.swift */; };
+		A0000000000000000000010D /* PlanWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020D /* PlanWidgetBundle.swift */; };
+		A0000000000000000000010E /* PlanWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020E /* PlanWidget.swift */; };
+		A0000000000000000000010F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000208 /* Models.swift */; };
+		A00000000000000000000110 /* DateRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000209 /* DateRules.swift */; };
+		A00000000000000000000111 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020A /* NotificationScheduler.swift */; };
+		A00000000000000000000112 /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020B /* PlanRepository.swift */; };
+		A00000000000000000000113 /* WidgetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020C /* WidgetIntents.swift */; };
+		A0000000000000000000011C /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000219 /* WidgetSnapshot.swift */; };
+		A00000000000000000000114 /* PlanCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000214 /* PlanCoreTests.swift */; };
+		A00000000000000000000115 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000208 /* Models.swift */; };
+		A00000000000000000000116 /* DateRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000209 /* DateRules.swift */; };
+		A00000000000000000000117 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020A /* NotificationScheduler.swift */; };
+		A00000000000000000000118 /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000020B /* PlanRepository.swift */; };
+		A0000000000000000000011D /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000219 /* WidgetSnapshot.swift */; };
+		A00000000000000000000119 /* PlanWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A00000000000000000000216 /* PlanWidgetExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0000000000000000000011A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00000000000000000000217 /* XCTest.framework */; };
+		A0000000000000000000011E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000021A /* Assets.xcassets */; };
+		A0000000000000000000011F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000021B /* AppConstants.swift */; };
+		A00000000000000000000120 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000021B /* AppConstants.swift */; };
+		A00000000000000000000121 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000021B /* AppConstants.swift */; };
+		A00000000000000000000122 /* PlanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000202 /* PlanStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000502;
+			remoteInfo = PlanWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A00000000000000000000601 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A00000000000000000000119 /* PlanWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000201 /* PlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000202 /* PlanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00000000000000000000204 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A00000000000000000000205 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		A00000000000000000000206 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		A00000000000000000000207 /* TaskEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditorView.swift; sourceTree = "<group>"; };
+		A00000000000000000000208 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A00000000000000000000209 /* DateRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRules.swift; sourceTree = "<group>"; };
+		A0000000000000000000020A /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		A0000000000000000000020B /* PlanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRepository.swift; sourceTree = "<group>"; };
+		A0000000000000000000020C /* WidgetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetIntents.swift; sourceTree = "<group>"; };
+		A00000000000000000000219 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		A0000000000000000000020D /* PlanWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanWidgetBundle.swift; sourceTree = "<group>"; };
+		A0000000000000000000020E /* PlanWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanWidget.swift; sourceTree = "<group>"; };
+		A0000000000000000000020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000210 /* PlanApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlanApp.entitlements; sourceTree = "<group>"; };
+		A0000000000000000000021A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00000000000000000000211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000212 /* PlanWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlanWidget.entitlements; sourceTree = "<group>"; };
+		A00000000000000000000214 /* PlanCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCoreTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000215 /* Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000216 /* PlanWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlanWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000217 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A00000000000000000000218 /* PlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000021B /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000011A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000801 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000802 /* PlanApp */,
+				A00000000000000000000803 /* PlanWidget */,
+				A00000000000000000000804 /* Shared */,
+				A00000000000000000000805 /* PlanTests */,
+				A00000000000000000000806 /* Frameworks */,
+				A00000000000000000000807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000802 /* PlanApp */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000201 /* PlanApp.swift */,
+				A00000000000000000000202 /* PlanStore.swift */,
+				A00000000000000000000203 /* ContentView.swift */,
+				A00000000000000000000204 /* TodayView.swift */,
+				A00000000000000000000205 /* TaskRow.swift */,
+				A00000000000000000000206 /* PlanView.swift */,
+				A00000000000000000000207 /* TaskEditorView.swift */,
+				A0000000000000000000021A /* Assets.xcassets */,
+				A0000000000000000000020F /* Info.plist */,
+				A00000000000000000000210 /* PlanApp.entitlements */,
+			);
+			path = PlanApp;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000803 /* PlanWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000020D /* PlanWidgetBundle.swift */,
+				A0000000000000000000020E /* PlanWidget.swift */,
+				A00000000000000000000211 /* Info.plist */,
+				A00000000000000000000212 /* PlanWidget.entitlements */,
+			);
+			path = PlanWidget;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000804 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000021B /* AppConstants.swift */,
+				A00000000000000000000208 /* Models.swift */,
+				A00000000000000000000209 /* DateRules.swift */,
+				A0000000000000000000020A /* NotificationScheduler.swift */,
+				A0000000000000000000020B /* PlanRepository.swift */,
+				A0000000000000000000020C /* WidgetIntents.swift */,
+				A00000000000000000000219 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000805 /* PlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000214 /* PlanCoreTests.swift */,
+			);
+			path = PlanTests;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000217 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000215 /* Plan.app */,
+				A00000000000000000000216 /* PlanWidgetExtension.appex */,
+				A00000000000000000000218 /* PlanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000501 /* Plan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000902 /* Build configuration list for PBXNativeTarget "Plan" */;
+			buildPhases = (
+				A00000000000000000000A01 /* Sources */,
+				A00000000000000000000701 /* Frameworks */,
+				A00000000000000000000B01 /* Resources */,
+				A00000000000000000000601 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00000000000000000000C01 /* PBXTargetDependency */,
+			);
+			name = Plan;
+			productName = Plan;
+			productReference = A00000000000000000000215 /* Plan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00000000000000000000502 /* PlanWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000903 /* Build configuration list for PBXNativeTarget "PlanWidgetExtension" */;
+			buildPhases = (
+				A00000000000000000000A02 /* Sources */,
+				A00000000000000000000702 /* Frameworks */,
+				A00000000000000000000B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanWidgetExtension;
+			productName = PlanWidgetExtension;
+			productReference = A00000000000000000000216 /* PlanWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A00000000000000000000503 /* PlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000904 /* Build configuration list for PBXNativeTarget "PlanTests" */;
+			buildPhases = (
+				A00000000000000000000A03 /* Sources */,
+				A00000000000000000000703 /* Frameworks */,
+				A00000000000000000000B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanTests;
+			productName = PlanTests;
+			productReference = A00000000000000000000218 /* PlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A00000000000000000000501 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A00000000000000000000502 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A00000000000000000000503 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000901 /* Build configuration list for PBXProject "PlanApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000801;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00000000000000000000807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000501 /* Plan */,
+				A00000000000000000000502 /* PlanWidgetExtension */,
+				A00000000000000000000503 /* PlanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000011E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000101 /* PlanApp.swift in Sources */,
+				A00000000000000000000102 /* PlanStore.swift in Sources */,
+				A00000000000000000000103 /* ContentView.swift in Sources */,
+				A00000000000000000000104 /* TodayView.swift in Sources */,
+				A00000000000000000000105 /* TaskRow.swift in Sources */,
+				A00000000000000000000106 /* PlanView.swift in Sources */,
+				A00000000000000000000107 /* TaskEditorView.swift in Sources */,
+				A00000000000000000000108 /* Models.swift in Sources */,
+				A00000000000000000000109 /* DateRules.swift in Sources */,
+				A0000000000000000000010A /* NotificationScheduler.swift in Sources */,
+				A0000000000000000000010B /* PlanRepository.swift in Sources */,
+				A0000000000000000000010C /* WidgetIntents.swift in Sources */,
+				A0000000000000000000011B /* WidgetSnapshot.swift in Sources */,
+				A0000000000000000000011F /* AppConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000010D /* PlanWidgetBundle.swift in Sources */,
+				A0000000000000000000010E /* PlanWidget.swift in Sources */,
+				A0000000000000000000010F /* Models.swift in Sources */,
+				A00000000000000000000110 /* DateRules.swift in Sources */,
+				A00000000000000000000111 /* NotificationScheduler.swift in Sources */,
+				A00000000000000000000112 /* PlanRepository.swift in Sources */,
+				A00000000000000000000113 /* WidgetIntents.swift in Sources */,
+				A0000000000000000000011C /* WidgetSnapshot.swift in Sources */,
+				A00000000000000000000120 /* AppConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000114 /* PlanCoreTests.swift in Sources */,
+				A00000000000000000000115 /* Models.swift in Sources */,
+				A00000000000000000000116 /* DateRules.swift in Sources */,
+				A00000000000000000000117 /* NotificationScheduler.swift in Sources */,
+				A00000000000000000000118 /* PlanRepository.swift in Sources */,
+				A0000000000000000000011D /* WidgetSnapshot.swift in Sources */,
+				A00000000000000000000121 /* AppConstants.swift in Sources */,
+				A00000000000000000000122 /* PlanStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00000000000000000000C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00000000000000000000502 /* PlanWidgetExtension */;
+			targetProxy = A00000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A00000000000000000000D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlanApp/PlanApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Plan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan;
+				PRODUCT_NAME = Plan;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlanApp/PlanApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Plan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan;
+				PRODUCT_NAME = Plan;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlanWidget/PlanWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan.widget;
+				PRODUCT_NAME = PlanWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlanWidget/PlanWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan.widget;
+				PRODUCT_NAME = PlanWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		A00000000000000000000D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYCQP55SB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangchengjiao.plan.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000901 /* Build configuration list for PBXProject "PlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000D01 /* Debug */,
+				A00000000000000000000D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000902 /* Build configuration list for PBXNativeTarget "Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000D03 /* Debug */,
+				A00000000000000000000D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000903 /* Build configuration list for PBXNativeTarget "PlanWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000D05 /* Debug */,
+				A00000000000000000000D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000904 /* Build configuration list for PBXNativeTarget "PlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000D07 /* Debug */,
+				A00000000000000000000D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000401 /* Project object */;
+}
